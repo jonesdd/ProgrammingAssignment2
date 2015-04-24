@@ -1,5 +1,6 @@
 ## These two functions are used to create a special matrix object and then store its inverse. 
 ##The inverse is cached so future requests don’t require recalculating the inverse. 
+## Both functions are heavily based on the examples provided in the README.md file.
 ## Example,
 ##      a<-makeCacheMatrix(matrix(c(1,0,4,1,3,4,4,1,0),nrow=3,ncol = 3,byrow = TRUE))
 ##      cacheSolve(a)
